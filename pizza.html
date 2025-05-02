@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PizzaMamak - Pesan Sekarang!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">🍕 PizzaMamak</div>
+      <nav>
+        <a href="#menu">Menu</a>
+        <a href="#order">Pesan</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Pizza Lezat, Langsung ke Rumahmu</h1>
+      <p>Nikmati berbagai pilihan pizza favorit hanya dengan beberapa klik.</p>
+      <a
+        href="https://wa.me/6285156624091?text=Halo%20saya%20mau%20pesan%20pizza"
+        class="whatsapp-btn"
+        target="_blank"
+        >Pesan via WhatsApp</a
+      >
+    </section>
+
+    <section id="menu">
+      <h2>Menu Kami</h2>
+      <div class="menu-grid">
+        <div class="item">
+          <img
+            src="http://www.silviocicchi.com/pizzachef/wp-content/uploads/2015/02/p-evid1.jpg"
+            alt="Pepperoni"
+          />
+          <h3>Pepperoni</h3>
+          <p>Pizza klasik dengan topping pepperoni renyah.</p>
+          <span>Rp50.000</span>
+        </div>
+        <div class="item">
+          <img
+            src="https://www.mashed.com/img/gallery/the-best-cheeses-for-pizza-ranked/intro-1673461506.jpg"
+            alt="Keju Melt"
+          />
+          <h3>Keju Melt</h3>
+          <p>Keju meleleh menggoda dengan saus tomat spesial.</p>
+          <span>Rp48.000</span>
+        </div>
+        <div class="item">
+          <img
+            src="https://cdn.loveandlemons.com/wp-content/uploads/2023/02/vegetarian-pizza-1024x1024.jpg"
+            alt="Veggie"
+          />
+          <h3>Veggie</h3>
+          <p>Penuh topping sayuran segar dan sehat.</p>
+          <span>Rp47.000</span>
+        </div>
+        <div class="item">
+          <img
+            src="https://littlespicejar.com/wp-content/uploads/2015/08/BBQ-Chicken-Pizza-22.jpg"
+            alt="BBQ Chicken"
+          />
+          <h3>BBQ Chicken</h3>
+          <p>Ayam panggang dengan saus BBQ manis pedas.</p>
+          <span>Rp55.000</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="order">
+      <h2>Form Pemesanan</h2>
+      <form class="order-form">
+        <label>Nama:</label>
+        <input type="text" required />
+        <label>Pilih Menu:</label>
+        <select required>
+          <option>Pepperoni</option>
+          <option>Keju Melt</option>
+          <option>Veggie</option>
+          <option>BBQ Chicken</option>
+        </select>
+        <label>Jumlah:</label>
+        <input type="number" min="1" required />
+        <label>Alamat:</label>
+        <textarea rows="3" required></textarea>
+        <label>Pembayaran:</label>
+        <select required>
+          <option>COD</option>
+          <option>Transfer</option>
+        </select>
+        <button type="submit">Kirim Pesanan</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Kontak Kami</h2>
+      <p style="text-align: center">
+        📞 0851-5662-4091<br />
+        📧 PizzaMamak@gmail.com<br />
+        📍 Jl. Cape No.12, Karawang
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 PizzaMamak. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
